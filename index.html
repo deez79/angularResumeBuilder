@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" ng-app="resumeBuilder">
+<head>
+	<meta charset="UTF-8">
+	<title>Derek Schulman's Resume</title>
+	<link rel="stylesheet" type="text/css" href="style/css/main.css">
+</head>
+<body>
+	<div id="container">
+		<nav>
+			<a href="index.html">link 1</a>
+			<a href="lunch.html">link 2</a>
+			<a href="fallout.html">link 3</a>
+			<a href="palette.html">link 4</a>
+			<a href=#>link 5</a>
+		</nav>
+
+<!--begin Personal Controller -->
+		<header id="header" ng-controller="PersonalController as PCtrl">
+			<div ng-repeat="persons in personalD.identify">
+				<h1>{{persons.name}}</h1>
+				<span class="info address">{{persons.address}}</span><!--end address-->
+				<span class="info phone">phone: {{persons.phone}}</span><!--end phone-->
+				<span class="info email">email: <a href="mailto:{{persons.email}}">{{persons.email}}</a></span><!--email-->
+			</div>
+		</header>
+<!--end of Personal Controller -->
+
+		<section>		
+<!--begin Job Controller-->
+			<h2>Job History</h2>
+			<ul class="jobsList" ng-controller="JobController as JCtrl">
+				<li class="jobGroup" ng-repeat="oddJob in jobHistory.oddJobs">
+					<span class="jobTitle"> {{oddJob.jobTitle}} </span>
+					<span class="jobDate"> {{oddJob.jobDateStart}} - {{oddJob.jobDateEnd}} </span>
+					<span class="jobName"> {{oddJob.jobName}} </span>
+					<span class="jobLocation"> {{oddJob.jobLocation}} </span>
+					<ul class="jobData" ng-repeat="jobDescription in oddJob.jobDescriptions">
+						<li class="jobDescription"> {{jobDescription}} </li>
+					</ul><!--end jobData-->
+				</li><!--end jobGroup-->
+			</ul><!--end jobList-->
+<!--end of Job Controller-->
+
+<!--begin School Controller-->
+			<h2>School History</h2>	
+			<ul class="schoolList" ng-controller="EducationController as ECtrl">
+				<li class="schoolGroup" ng-repeat="schools in educationD.schooling">
+					<span class="schoolName">{{schools.schoolName}}</span>
+					<span class="schoolGrad">{{schools.schoolGraduationDate}}</span>
+					<span class="schoolMajor">{{schools.schoolMajor}} {{schools.schoolMinor}}</span>
+					<span class="schoolLocation">{{schools.schoolLocation}}</span>
+				</li>
+			</ul>	
+<!--end of School Controller-->
+	    </section>
+
+		<footer><p>&copy; 2014</p></footer>
+
+    </div><!--end container-->
+
+<!-- Start Script Area -->
+	<script type="text/javascript" src="js/lib/angular.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+<!-- End Script Area -->
+
+</body>
+</html>

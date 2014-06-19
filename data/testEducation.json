@@ -1,0 +1,19 @@
+{
+	"schooling":
+	[
+		{
+			"schoolName":"Colombia University",
+			"schoolMajor": "Political Science",
+			"schoolMinor":", International Relations",
+			"schoolGraduationDate": "1983",
+			"schoolLocation": "New York"
+		},
+		{
+			"schoolName":"Baruch University",
+			"schoolMajor": "Continuing Education, Open Source Web Development",
+			"schoolMinor":"",
+			"schoolGraduationDate": "Expected Completion 2014",
+			"schoolLocation": "New York, NY"
+		}
+	]
+}

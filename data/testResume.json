@@ -1,0 +1,47 @@
+{
+	"oddJobs":
+	[
+		{
+			"jobTitle":"U.S. Senator",
+			"jobDateStart":"2005",
+			"jobDateEnd":"present",
+			"jobName":"State of Illinois",
+			"jobLocation":"Chicago, IL / Washington, DC ",
+			"jobDescriptions":[
+				"Whatever forage fashion axe, organic quinoa Cosby sweater Neutra tousled pour-over. Fixie paleo tote bag chia ",
+				"sriracha, Schlitz Kickstarter Thundercats cliche fap freegan semiotics before McSweeney's photo booth. Keytar PBR tofu ",
+				"they sold out photo booth. Lo-fi kogi fixie pour-over, typewriter fanny pack meh mi. Bespoke bitters tousled selvage, ",
+				"kale chips authentic Odd Future selfies keffiyeh farm-to-table Blue Bottle banh narwhal aesthetic Neutra hoodie street art "	
+			]
+		}, 
+		{
+			"jobTitle":"State Senator",
+			"jobDateStart":"1997",
+			"jobDateEnd":"2004",
+			"jobName":"State of Illinois",
+			"jobLocation":"Chicago, IL",
+			"jobDescriptions":[
+				"Blue Bottle beard meh retro ethical master cleanse yr church-key asymmetrical authentic, Echo Park Cosby sweater Bushwick Truffaut.",
+				"Neutra Thundercats disrupt roof party DIY. Crucifix PBR single-origin coffee, American Apparel tousled literally bitters  ",
+				"Brooklyn tattooed Godard, Truffaut leggings pug try-hard sriracha tote bag chambray, selvage kitsch deep",
+				"synth fanny pack. Mustache meggings cray, organic Portland pug banh mi tattooed quinoa +1 narwhal Shoreditch four loko.",
+				"slow-carb direct trade try-hard disrupt Cosby sweater mustache Helvetica. Butcher Austin occupy VHS, hoodie flannel bitters",
+				"wolf moon tote bag letterpress, flexitarian try-hard VHS High Life mustache"
+			]
+		},
+		{
+			"jobTitle":"Associate Attorney",
+			"jobDateStart":"1993",
+			"jobDateEnd":"2002",
+			"jobName":"Davis, Miner & Barnhill",
+			"jobLocation":"Chicago, IL",
+			"jobDescriptions":[
+				"Whatever forage fashion axe, organic quinoa Cosby sweater Neutra tousled wolf moon tote bag letterpress,",
+				"pour-over. Fixie paleo tote bag chia McSweeney's photo booth. Keytar PBR tofu flexitarian try-hard VHS High Life mustache",
+				"sriracha, Schlitz Kickstarter Thundercats cliche fap freegan semiotics before Butcher Austin occupy VHS",
+				"Williamsburg ugh meh. McSweeney's tote bag chambray, selvage kitsch deep hoodie flannel bitters raw denim McSweeney's.",
+				"slow-carb direct trade try-hard disrupt Cosby sweater mustache Helvetica. flexitarian try-hard VHS High Life mustache"
+			]
+		}
+	]
+}

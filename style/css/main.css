@@ -1,0 +1,56 @@
+/*---------------------------
+* Solarized colors
+---------------------------*/
+body {
+  background-color: #002b36;
+  color: #657b83;
+  font-size: small; }
+  body a, body a:link, body a:visited {
+    color: #657b83; }
+  body #container {
+    margin: auto auto;
+    width: 800px; }
+    body #container h2 {
+      font-size: 1.2em;
+      color: #859900;
+      border-bottom: 1px dashed grey; }
+    body #container nav a {
+      color: #cb4b16;
+      display: inline-block;
+      padding: 0;
+      width: 20%;
+      float: left;
+      text-align: left;
+      background-color: #fdf6e3; }
+    body #container nav a:hover {
+      background-color: #002b36; }
+    body #container header {
+      color: #b58900; }
+      body #container header a, body #container header a:link, body #container header a:visited {
+        color: #b58900; }
+      body #container header a:hover {
+        color: #dc322f; }
+      body #container header h1 {
+        padding-top: 50px;
+        border-bottom: 1px solid grey;
+        font-size: 1.6em; }
+      body #container header span.info {
+        text-transform: uppercase;
+        display: block;
+        text-align: right; }
+    body #container section ul.jobsList, body #container section ul.schoolList {
+      list-style-type: none;
+      padding: 0px; }
+      body #container section ul.jobsList > li, body #container section ul.schoolList > li {
+        margin-top: 20px; }
+      body #container section ul.jobsList span, body #container section ul.schoolList span {
+        text-transform: capitalize;
+        color: #2aa198;
+        width: 49%;
+        display: inline-block; }
+        body #container section ul.jobsList span:nth-child(even), body #container section ul.schoolList span:nth-child(even) {
+          text-align: right; }
+      body #container section ul.jobsList .jobData, body #container section ul.schoolList .jobData {
+        list-style-type: disc; }
+    body #container footer {
+      text-align: center; }

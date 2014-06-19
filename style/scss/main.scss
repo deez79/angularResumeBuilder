@@ -1,0 +1,123 @@
+/*---------------------------
+* Solarized colors
+---------------------------*/  
+$base03:    #002b36;
+$base02:    #073642;
+$base01:    #586e75;
+$base00:    #657b83;
+$base0:     #839496;
+$base1:     #93a1a1;
+$base2:     #eee8d5;
+$base3:     #fdf6e3;
+$yellow:    #b58900;
+$orange:    #cb4b16;
+$red:       #dc322f;
+$magenta:   #d33682;
+$violet:    #6c71c4;
+$blue:      #268bd2;
+$cyan:      #2aa198; 
+$green:     #859900;
+
+
+// Colors Used:
+$background: $base03;
+$backgroundLight: $base3;
+$bodyText: $base00;
+$nav: $orange;
+$headline: $yellow;
+$list: $cyan;
+$link: $red;
+$hover: $blue;
+$text: $base01;
+
+body{
+	background-color: $background;
+	color: $bodyText;
+	font-size: small;
+	a, a:link, a:visited{
+		color: $bodyText;
+	}	//end body a
+
+
+	#container{
+		margin: auto auto;
+		width: 800px;
+
+		h2{
+			font-size: 1.2em;
+			color: $green;
+			border-bottom: 1px dashed grey;
+		}
+		
+		nav{
+			a{
+				color: $nav;
+				display: inline-block;
+				padding: 0;
+				width: 20%;
+				float:left;
+				text-align: left;
+				background-color: $backgroundLight;
+			}	//end nav a
+			a:hover{
+				background-color: $background;
+			}	//end a:hover
+		}	// end nav
+
+
+		header{
+
+			color: $yellow;
+			a, a:link, a:visited{
+				color: $yellow;
+			}
+			a:hover {
+					color: $link;
+			}
+			h1{
+				padding-top: 50px;
+				border-bottom: 1px solid grey;
+				font-size: 1.6em;
+			}  //end h1
+			span.info{
+				text-transform: uppercase;
+				display: block;
+				text-align: right;
+
+			}	//end span.info
+		}	//end header
+
+
+		section{									//Main Content.  Used for all Job data
+			
+			ul.jobsList, ul.schoolList{
+				list-style-type: none;
+				padding: 0px;
+				//border: thin white solid; 		//used for troubleshooting
+				>li{
+					margin-top: 20px;
+
+				}
+				span{
+					text-transform:capitalize;
+					color: $list;
+					width : 49%;
+					display: inline-block;        
+					&:nth-child(even){
+						text-align: right;
+					}	//end nth-child
+				}	//end span
+				.jobData {
+					list-style-type: disc;
+				}	//end ul.jobData
+			}	//end ul.jobsList	
+		}	//end section
+
+		footer{
+			text-align: center;
+		}
+
+
+
+	}	//end container
+}	//end body
